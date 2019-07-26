@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel mobile.html",
+    "dev": "parcel index.html",
     "dev-desktop": "parcel index.html",
+    "dev-mobile": "parcel mobile.html",
     "build": "parcel build index.html mobile.html"
   },
   "keywords": [],

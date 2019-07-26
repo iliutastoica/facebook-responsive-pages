@@ -5,11 +5,8 @@
 $primaryColor: #3b5998;
 $secondaryColor: #29487d;
 $primaryColorLight: #e9eaed;
-$fonts: "Helvetica Neue",
-Helvetica,
-Arial,
-"Lucida Grande",
-sans-serif;
+$fonts: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$mobile_width: 700px !default;
 
 :root {
     --pagefont: Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;
@@ -105,7 +102,7 @@ $maxWidth: 1012px;
         justify-content: space-between;
         flex: 0 1 316px;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             flex: 0 1 auto;
         }
 
@@ -204,7 +201,7 @@ $maxWidth: 1012px;
         display: block;
         padding: 0 40px 0 0;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             padding: 0;
         }
     }
@@ -223,7 +220,7 @@ $maxWidth: 1012px;
         padding: 4px 14px;
         border-radius: 0 4px 4px 0;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             padding: 4px;
             background: none;
         }
@@ -262,7 +259,7 @@ $maxWidth: 1012px;
             }
         }
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             display: none;
         }
     }
@@ -512,7 +509,7 @@ $maxWidth: 1012px;
         width: 22px;
         height: 19px;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             background-position: -219px -54px;
             width: 24px;
             height: 21px;
@@ -557,7 +554,7 @@ $maxWidth: 1012px;
         width: 9px;
         height: 6px;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             display: none;
             width: 0;
             height: 0;
@@ -569,7 +566,7 @@ $maxWidth: 1012px;
         width: 13px;
         height: 13px;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             background-position: -160px -54px;
             width: 19px;
             height: 19px;
@@ -584,7 +581,7 @@ $maxWidth: 1012px;
         width: 13px;
         height: 3px;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             background-position: -252px -52px;
             width: 21px;
             height: 6px;
@@ -599,7 +596,7 @@ $maxWidth: 1012px;
         width: 12px;
         height: 13px;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             background-position: -281px -51px;
             width: 14px;
             height: 15px;
@@ -611,7 +608,7 @@ $maxWidth: 1012px;
         width: 16px;
         height: 13px;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             background-position: -306px -51px;
             width: 17px;
             height: 13px;
@@ -655,7 +652,7 @@ $maxWidth: 1012px;
         width: 16px;
         height: 16px;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             background-position: -244px -23px;
             width: 13px;
             height: 17px;
@@ -709,7 +706,7 @@ $maxWidth: 1012px;
         width: 16px;
         height: 16px;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             background-position: -189px -54px;
             width: 19px;
             height: 20px;
@@ -819,7 +816,7 @@ $maxWidth: 1012px;
         line-height: 1;
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: $mobile_width) {
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -891,7 +888,7 @@ $maxWidth: 1012px;
         }
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: $mobile_width) {
         display: block;
         width: 100%;
         overflow: hidden;
@@ -928,7 +925,7 @@ $maxWidth: 1012px;
     border: 1px solid #dddfe2;
     position: relative;
 
-    @media (max-width: 700px) {
+    @media (max-width: $mobile_width) {
         max-width: 100%;
         border-width: 0 0 1px;
         margin: 0 0 7px;
@@ -954,7 +951,7 @@ $maxWidth: 1012px;
         border-bottom: 1px solid #dfe0e4;
         margin: 0;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             border: 0;
             background: white;
         }
@@ -976,7 +973,7 @@ $maxWidth: 1012px;
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 9;
+    z-index: 12;
 
     .leftContent {
         display: flex;
@@ -1037,7 +1034,7 @@ $maxWidth: 1012px;
         }
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: $mobile_width) {
         padding: 12px;
         flex-flow: column wrap;
         border-width: 0 0 1px;
@@ -1106,7 +1103,7 @@ $maxWidth: 1012px;
         .likeIcon {
             background-position: -161px -3px;
 
-            @media (max-width: 700px) {
+            @media (max-width: $mobile_width) {
                 background-position: -160px -54px;
                 background-color: transparent;
                 background-blend-mode: initial;
@@ -1188,7 +1185,7 @@ $maxWidth: 1012px;
     justify-content: space-between;
     padding: 0 0 1em;
 
-    @media (max-width: 700px) {
+    @media (max-width: $mobile_width) {
         flex-flow: column wrap;
     }
 
@@ -1196,7 +1193,7 @@ $maxWidth: 1012px;
         flex: 0 1 502px;
         margin: 0 12px 0 0;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             flex: 1 0 100%;
             order: 2;
         }
@@ -1206,7 +1203,7 @@ $maxWidth: 1012px;
         flex: 0 1 314px;
         margin: 0;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             flex: 1 0 100%;
             order: 1;
         }
@@ -1316,7 +1313,7 @@ $maxWidth: 1012px;
 .business {
     position: relative;
 
-    @media (max-width: 700px) {
+    @media (max-width: $mobile_width) {
         text-align: center;
         justify-content: center;
         display: flex;
@@ -1481,7 +1478,7 @@ $maxWidth: 1012px;
     }
 
     &.likeItemRating {
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             flex-flow: column;
             justify-content: flex-start;
             align-items: flex-start;
@@ -1511,6 +1508,9 @@ $maxWidth: 1012px;
     .about-img {
         width: 100%;
     }
+    @media (max-width: $mobile_width) {
+        display: flex; flex-flow: column nowrap;
+    }
 }
 
 .aboutDetails {
@@ -1522,7 +1522,7 @@ $maxWidth: 1012px;
         padding: 0;
         margin: 18px 0 0;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             margin: 8px 0 0;
             font-size: 14px;
 
@@ -1541,7 +1541,7 @@ $maxWidth: 1012px;
         margin: 0 10px 0 0;
         min-width: 16px;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             margin: 0 12px 0 11px;
         }
     }
@@ -1550,7 +1550,7 @@ $maxWidth: 1012px;
         margin: 0 auto 0 1em;
         align-self: baseline;
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             margin: 0 1em 0 auto;
             align-self: center;
         }
@@ -1618,7 +1618,7 @@ $maxWidth: 1012px;
         }
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: $mobile_width) {
 
         .widgetContent {
             display: block;
@@ -1703,7 +1703,7 @@ $maxWidth: 1012px;
             width: 78%;
         }
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             .postAuthor { display: none; }
         }
     }
@@ -1767,7 +1767,7 @@ $maxWidth: 1012px;
 .postList {
     padding: 0 0 3em;
 
-    @media (max-width: 700px) {
+    @media (max-width: $mobile_width) {
         overflow: hidden;
         padding: 0 0 6em;
     }
@@ -1844,7 +1844,7 @@ $maxWidth: 1012px;
         margin: 0 -9px -9px;
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: $mobile_width) {
         padding: 14px;
 
         .postComment {
@@ -1908,7 +1908,7 @@ $maxWidth: 1012px;
     }
 
     .icon {
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             height: 20px;
             min-height: 20px;
             min-width: 20px;
@@ -2112,7 +2112,7 @@ $maxWidth: 1012px;
             right: 6px;
         }
 
-        @media (max-width: 700px) {
+        @media (max-width: $mobile_width) {
             margin: 0;
 
             &:before {
