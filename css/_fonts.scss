@@ -1,0 +1,35 @@
+// main: ./main.scss
+
+$fontPath : './fonts/';
+
+
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica 45 Light'), local('HelveticaNeue-Light'),
+        url('#{$fontPath}HelveticaNeue-Light.woff2') format('woff2'),
+        url('#{$fontPath}HelveticaNeue-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica 65 Medium'), local('HelveticaNeue-Medium'),
+        url('#{$fontPath}HelveticaNeue-Medium.woff2') format('woff2'),
+        url('#{$fontPath}HelveticaNeue-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: local('Helvetica 75 Bold'), local('HelveticaNeue-Bold'),
+        url('#{$fontPath}HelveticaNeue-Bold.woff2') format('woff2'),
+        url('#{$fontPath}HelveticaNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
