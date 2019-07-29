@@ -135,7 +135,7 @@ function init() {
                     </div>
                 </div>
                 `.trim();
-                console.log(posttemplate);
+               // console.log(posttemplate);
                 let posts = jQuery('#postList');
 
                 posts.prepend(posttemplate);
